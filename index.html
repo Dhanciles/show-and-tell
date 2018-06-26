@@ -1,32 +1,90 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Portillo's 2018 NBA Mock Draft</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <title>Puma Basketball</title>
   </head>
   <body>
-    <header>
-      <h2>Portillo's 2018 NBA Mock Draft</h2>
+    <header class="top-bar">
+      <figure class="logo">
+        <img class="puma-logo" src="images/puma-logo.png" alt="Puma Logo">
+      </figure>
+      <nav class="menu">
+        <ul class="navigation">
+          <li class="menu-items">MEN</li>
+          <li class="menu-items">WOMEN</li>
+          <li class="menu-items">BOYS</li>
+          <li class="menu-items">GIRLS</li>
+          <li class="menu-items">CUSTOMIZE</li>
+          <li class="menu-items">TRENDING</li>
+        </ul>
+      </nav>
+      <input class="search" type="text" placeholder="search">
     </header>
-    <main class="mock-draft-selections">
-      <section class="seclection-cards">
-        <header class="card-head">
-          <h3 class="pick-number">1</h3>
-          <img  class="team-icon" src="" alt="">
-        </header>
-        <div class="player-card">
-          <a href=""> 
-            <h3 class= "selected-player"></h3> 
-           </a>
-          <img class="player-image"src="" alt="">
-          <p class="player-bio"></p>
-        <div class="stats"></div>
-          <ul class="stats-list">
-            <li>Pts:</li>
-            <li>Reb:</li>
-            <li>Ast:</li>
-          </ul>
-        </div> 
-      </section>    
+    <main class="main-content">
+      <div class="page-section">
+        <h2 class="section">BASKETBALL</h2>
+      </div>
+      <article class="athlete-box">
+        <h3 class="title">President of Basketball Operations</h3>
+        <img class= "profile-image" src="images/jay-z.jpg" alt="Image of Jay-Z">
+        <p class="brief-bio"> Hip-Hop icon and curator of cool for Puma Basketball.</p>
+      </article>  
+      <section class="athletes">
+        <article class="athlete-box">
+          <div class="pro-container">
+            <img class="profile-image" src="images/deandre-ayton.jpg" alt="Image
+           of Deandre Ayton">
+          </div>
+          <h4 class="name">DEANDRE ATYTON</h4>
+          <p class="athlete-bio">Leader of the new school of big men.</p>
+        </article>
+        <article class="athlete-box">
+          <div class="pro-container">
+            <img class="profile-image" src="images/marvin-bagley.jpg" alt="Image
+           of Marvin Bagley III">
+          </div>
+          <h4 class="name">MARVIN BAGLEY III</h4>
+          <p class="athlete-bio">Night in, night out double-double threat. </p>
+        </article>
+        <article class="athlete-box">
+          <div class="pro-container">
+            <img class="profile-image" src="images/zhaire-smith.jpg" alt="Image 
+          of Zhaire Smith">
+          </div>
+          <h4 class="name">ZHAIRE SMITH</h4>
+          <p class="athlete-bio">High-flying, show-stopping, game-changer.</p>
+        </article>
+        <article class="athlete-box">
+          <div class="pro-container">
+            <img class="profile-image" src="images/michael-porterjr.jpg" alt="">
+          </div>
+          <h4 class="name">MICHAEL PORTER JR</h4>
+          <p class="athlete-bio">Unmatchable scoring capablities and undefinable range.</p>
+        </article>
+      </section>
+      <section class="shoes">
+        <h3 class="sneaker-title">Introducing The Puma Clyde Court Disrupt</h3>
+        <div class="img-container">
+          <img class="sneaker-image" src="images/clyde-1.jpg" alt="Image of Puma Clyde Court Disrupt">
+        </div>
+        <div class="img-container">
+          <img class="sneaker-image" src="images/clyde-2.jpg" alt="Image of Puma Clyde Court Disrupt">
+        </div>
+        <div class="img-container">
+          <img class="sneaker-image" src="images/clyde-3.jpg" alt="Image of Puma Clyde Court Disrupt">
+        </div>
+      </section>
+      <div class="form-container">
+        <form action="" method="get" class="subscribe">
+          <input type="text" class="GET-name" placeholder="First and Last Name">
+          <input type="text" class="GET-email" placeholder="@">
+          <input type="submit" value="subscribe-to-newsletter">
+        </form>
+      </div>
     </main>  
   </body>
 </html>
